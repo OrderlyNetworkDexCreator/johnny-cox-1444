@@ -107,3 +107,13 @@ html, body {
 .oui-scaffold-footer-powered-by {
   display: none !important;
 }
+
+:root {
+  /* основной акцент (используется для primary-кнопок и border'ов) */
+  --oui-color-primary: 255 255 255;          /* <-- твой цвет в формате R G B без rgb() */
+  --oui-color-primary-light: 230 230 230;    /* светлый оттенок */
+  --oui-color-primary-darken: 200 200 200;   /* тёмный оттенок */
+
+  /* (опционально) цвет ссылок, если они тоже «розовые» */
+  --oui-color-link: 255 255 255;
+}
