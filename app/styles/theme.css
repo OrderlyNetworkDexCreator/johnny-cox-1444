@@ -1,26 +1,26 @@
 :root {
-  /* Fonts */
   --oui-font-family: 'Manrope', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* Colors */
-  --oui-color-primary: 255 255 255; /* Белый для кнопок и акцентов */
-  --oui-color-primary-light: 230 230 230;  /* Светлый оттенок для акцентов */
-  --oui-color-primary-darken: 200 200 200; /* Тёмный оттенок для hover эффектов */
+  /* colors */
+  --oui-color-primary: 255 255 255;
+  --oui-color-primary-light: 230 230 230;
+  --oui-color-primary-darken: 0 0 0;
+  --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 255 255 255; /* Белый цвет для ссылок */
+  --oui-color-link: 255 255 255;
   --oui-color-link-light: 188 180 192;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  --oui-color-danger: 245 97 139; /* Кастомизация красного для ошибок */
+  --oui-color-danger: 245 97 139;
   --oui-color-danger-light: 250 167 188;
   --oui-color-danger-darken: 237 72 122;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 41 233 169; /* Зеленый для успешных операций */
+  --oui-color-success: 41 233 169;
   --oui-color-success-light: 101 240 194;
   --oui-color-success-darken: 0 161 120;
   --oui-color-success-contrast: 255 255 255;
@@ -30,7 +30,7 @@
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 36 32 47;  /* Темный фон */
+  --oui-color-fill: 36 32 47;
   --oui-color-fill-active: 40 46 58;
 
   --oui-color-base-1: 82 82 82;
@@ -47,12 +47,12 @@
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 245 97 139;  /* Красный для убытков */
+  --oui-color-trading-loss: 245 97 139;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169; /* Зеленый для прибыли */
+  --oui-color-trading-profit: 41 233 169;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* Gradients */
+  /* gradients */
   --oui-gradient-primary-start: 159 107 225;
   --oui-gradient-primary-end: 189 107 237;
 
@@ -77,15 +77,16 @@
   --oui-gradient-neutral-start: 27 29 24;
   --oui-gradient-neutral-end: 38 41 46;
 
-  /* Rounded */
+  /* rounded */
   --oui-rounded-sm: 2px;
+  --oui-rounded: 4px;
   --oui-rounded-md: 6px;
   --oui-rounded-lg: 8px;
   --oui-rounded-xl: 12px;
   --oui-rounded-2xl: 16px;
   --oui-rounded-full: 9999px;
 
-  /* Spacing */
+  /* spacing */
   --oui-spacing-xs: 20rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;
@@ -96,37 +97,4 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
-}
-
-/* Custom Styles for Primary Button */
-.oui-button {
-  background-color: rgba(255, 255, 255, 0.08); /* soft white for button */
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.2); /* soft white border */
-}
-
-/* Primary button on hover */
-.oui-button-primary {
-  background-color: rgb(var(--oui-color-primary));
-  color: #0B0B0D; /* dark color for better contrast */
-}
-
-.oui-button-primary:hover {
-  background-color: rgb(var(--oui-color-primary-darken));
-}
-
-/* Disabled buttons */
-.oui-button-disabled {
-  background-color: rgba(var(--oui-color-primary), 0.40);
-  color: rgba(255,255,255,0.60);
-}
-
-/* Custom text link color */
-.oui-link {
-  color: rgb(var(--oui-color-link));
-}
-
-/* Footer hide "Powered by" */
-.oui-scaffold-footer-powered-by {
-  display: none !important;
 }
