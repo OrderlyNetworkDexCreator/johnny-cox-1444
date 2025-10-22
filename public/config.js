@@ -29,7 +29,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "@Lyper_DEX",
-  "VITE_SEO_THEME_COLOR": "#878787",
+  "VITE_SEO_THEME_COLOR": "#bababa",
   "VITE_SEO_KEYWORDS": "dex, crypto, perps, next-gen",
   "VITE_AVAILABLE_LANGUAGES": "en,zh,es,ru",
   "VITE_USE_CUSTOM_PNL_POSTERS": "true",
