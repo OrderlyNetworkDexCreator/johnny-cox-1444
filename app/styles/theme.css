@@ -5,7 +5,7 @@
   /* colors */
   --oui-color-primary: 255 255 255;
   --oui-color-primary-light: 255 255 255;
-  --oui-color-primary-darken: 211 211 211;
+  --oui-color-primary-darken: 255 255 255;
   --oui-color-primary-contrast: 0 0 0;
 
   --oui-color-link: 255 255 255;
@@ -33,16 +33,16 @@
   --oui-color-fill: 0 0 0;
   --oui-color-fill-active: 255 255 255;
 
-  --oui-color-base-1: 40 40 40;
-  --oui-color-base-2: 32 32 32;
-  --oui-color-base-3: 24 24 24;
-  --oui-color-base-4: 16 16 16;
-  --oui-color-base-5: 8 8 8;
+  --oui-color-base-1: 0 0 0;
+  --oui-color-base-2: 0 0 0;
+  --oui-color-base-3: 0 0 0;
+  --oui-color-base-4: 0 0 0;
+  --oui-color-base-5: 0 0 0;
   --oui-color-base-6: 0 0 0;
-  --oui-color-base-7: 51 46 66;
-  --oui-color-base-8: 36 32 47;
-  --oui-color-base-9: 20 18 29;
-  --oui-color-base-10: 14 13 18;
+  --oui-color-base-7: 0 0 0;
+  --oui-color-base-8: 0 0 0;
+  --oui-color-base-9: 0 0 0;
+  --oui-color-base-10: 0 0 0;
 
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
@@ -97,10 +97,6 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
-}
-
-.oui-scaffold-footer-powered-by {
-  display: none !important;
 }
 
 :root {
